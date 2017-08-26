@@ -2,11 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.hto56</groupId>
-    <artifactId>p2p-service-parent</artifactId>
+    <artifactId>p2p-web-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  <groupId>com.hto56</groupId>
-  <artifactId>p2p-service-sso</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>p2p-web-main</artifactId>
 </project>
