@@ -1,0 +1,26 @@
+/**
+ */
+package com.hto56.p2p.common.core.mybatis.dialect;
+
+/**
+ * 
+ * 
+*<ul>
+*</ul>
+*
+ */
+public abstract class Dialect {
+	public boolean supportsLimit() {
+		return false;
+	}
+
+	public boolean supportsLimitOffset() {
+		return supportsLimit();
+	}
+
+	public String getLimitString(String sql, int offset, int limit) {
+		return getLimitString(sql, offset, Integer.toString(offset), limit, Integer.toString(limit));
+	}
+
+	public abstract String getLimitString(String sql, int offset, String offsetPlaceholder, int limit, String limitPlaceholder);
+}

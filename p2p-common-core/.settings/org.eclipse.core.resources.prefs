@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/hto56/p2p/common/core/dao/BaseDaoImpl.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/mybatis/BooleanTypeHandler.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/mybatis/dialect/Dialect.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/mybatis/dialect/MySqlDialect.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/mybatis/interceptor/AbstractInterceptor.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/mybatis/interceptor/ExecutorInterceptor.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/service/BaseService.java=UTF-8
+encoding//src/main/java/com/hto56/p2p/common/core/service/BaseServiceImpl.java=UTF-8
