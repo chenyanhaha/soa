@@ -15,6 +15,35 @@
   
   
   <dependencies>
+  	<!-- Common Dependency Begin -->
+			<dependency>
+				<groupId>antlr</groupId>
+				<artifactId>antlr</artifactId>
+				<version>2.7.6</version>
+			</dependency>
+			<dependency>
+				<groupId>aopalliance</groupId>
+				<artifactId>aopalliance</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.aspectj</groupId>
+				<artifactId>aspectjweaver</artifactId>
+				<version>1.7.3</version>
+			</dependency>
+			<!-- <dependency> -->
+			<!-- <groupId>cglib</groupId> -->
+			<!-- <artifactId>cglib-nodep</artifactId> -->
+			<!-- <version>2.2.2</version> -->
+			<!-- </dependency> -->
+			<dependency>
+				<groupId>cglib</groupId>
+				<artifactId>cglib</artifactId>
+				<version>2.2.2</version>
+			</dependency>
+  
+  
+  
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
@@ -95,6 +124,13 @@
 			<artifactId>log4j</artifactId>
 					<groupId>log4j</groupId>
 					<version>1.2.17</version>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.32</version>
 		</dependency>
 	</dependencies>
 	

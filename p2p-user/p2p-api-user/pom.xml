@@ -2,18 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.hto56</groupId>
-    <artifactId>p2p-web-parent</artifactId>
+    <artifactId>p2p-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>p2p-web-cms</artifactId>
+  <artifactId>p2p-api-user</artifactId>
   
   
   <dependencies>
-  <dependency>
-  <groupId>com.hto56</groupId>
-    <artifactId>p2p-api-user</artifactId>
+  	<dependency>
+  	 <groupId>com.hto56</groupId>
+    <artifactId>p2p-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-  </dependency>
-   
+  	</dependency>
   </dependencies>
 </project>

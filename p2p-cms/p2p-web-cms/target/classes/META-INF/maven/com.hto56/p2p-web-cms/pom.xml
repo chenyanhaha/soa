@@ -6,4 +6,14 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>p2p-web-cms</artifactId>
+  
+  
+  <dependencies>
+  <dependency>
+  <groupId>com.hto56</groupId>
+    <artifactId>p2p-api-user</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+   
+  </dependencies>
 </project>

@@ -1,15 +1,16 @@
 Manifest-Version: 1.0
 Built-By: chenyan
-Class-Path: . lib/dubbo-2.5.3.jar lib/javassist-3.15.0-GA.jar lib/nett
- y-3.2.5.Final.jar lib/zookeeper-3.4.5.jar lib/slf4j-api-1.6.1.jar lib
- /slf4j-log4j12-1.6.1.jar lib/jline-0.9.94.jar lib/junit-3.8.1.jar lib
- /zkclient-0.3.jar lib/spring-aop-4.3.10.RELEASE.jar lib/spring-aspect
- s-4.3.10.RELEASE.jar lib/aspectjweaver-1.8.10.jar lib/spring-beans-4.
- 3.10.RELEASE.jar lib/spring-context-4.3.10.RELEASE.jar lib/spring-con
- text-support-4.3.10.RELEASE.jar lib/spring-core-4.3.10.RELEASE.jar li
- b/commons-logging-1.2.jar lib/spring-expression-4.3.10.RELEASE.jar li
- b/spring-jdbc-4.3.10.RELEASE.jar lib/spring-tx-4.3.10.RELEASE.jar lib
- /log4j-1.2.17.jar
+Class-Path: . lib/antlr-2.7.6.jar lib/aopalliance-1.0.jar lib/aspectjw
+ eaver-1.7.3.jar lib/cglib-2.2.2.jar lib/asm-3.3.1.jar lib/dubbo-2.5.3
+ .jar lib/javassist-3.15.0-GA.jar lib/netty-3.2.5.Final.jar lib/zookee
+ per-3.4.5.jar lib/slf4j-api-1.6.1.jar lib/slf4j-log4j12-1.6.1.jar lib
+ /jline-0.9.94.jar lib/junit-3.8.1.jar lib/zkclient-0.3.jar lib/spring
+ -aop-4.3.10.RELEASE.jar lib/spring-aspects-4.3.10.RELEASE.jar lib/spr
+ ing-beans-4.3.10.RELEASE.jar lib/spring-context-4.3.10.RELEASE.jar li
+ b/spring-context-support-4.3.10.RELEASE.jar lib/spring-core-4.3.10.RE
+ LEASE.jar lib/commons-logging-1.2.jar lib/spring-expression-4.3.10.RE
+ LEASE.jar lib/spring-jdbc-4.3.10.RELEASE.jar lib/spring-tx-4.3.10.REL
+ EASE.jar lib/log4j-1.2.17.jar lib/mysql-connector-java-5.1.32.jar
 Build-Jdk: 1.8.0_65
 Created-By: Maven Integration for Eclipse
 Main-Class: com.alibaba.dubbo.container.Main
