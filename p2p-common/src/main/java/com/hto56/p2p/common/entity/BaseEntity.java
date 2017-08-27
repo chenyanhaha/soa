@@ -3,6 +3,8 @@ package com.hto56.p2p.common.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import com.alibaba.fastjson.JSON;
+
 public class BaseEntity implements Serializable{
 
 	private static final long serialVersionUID = 1L;
@@ -35,6 +37,11 @@ public class BaseEntity implements Serializable{
 
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
+	}
+
+	@Override
+	public String toString() {
+		return JSON.toJSONString(this);
 	}
 	
 	
